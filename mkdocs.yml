@@ -1,4 +1,4 @@
-site_name: playground project
+site_name: Playground Project
 site_url: https://example.com
 nav:
   - Home: index.md
