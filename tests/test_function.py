@@ -1,4 +1,4 @@
-from playground.playground import function
+from playground import function
 
 
 def test_function():
