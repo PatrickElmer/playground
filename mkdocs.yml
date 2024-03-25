@@ -1,0 +1,7 @@
+site_name: playground project
+theme:
+  name: readthedocs
+  highlightjs: true
+plugins:
+  - search
+  - mkdocstrings:
