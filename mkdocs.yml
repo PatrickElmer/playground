@@ -8,3 +8,8 @@ theme:
   highlightjs: true
 plugins:
   - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_submodules: true
