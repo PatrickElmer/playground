@@ -1,4 +1,4 @@
-{!README.md!}
+{% include "../README.md" %}
 
 # Heading
 

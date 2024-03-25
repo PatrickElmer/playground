@@ -19,6 +19,7 @@ dependencies = [
 dev = [
   'pytest >= 6.1.1',
   'mkdocstrings[python]',
+  'mkdocs-include-markdown-plugin',
 ]
 
 [tool.pytest.ini_options]
