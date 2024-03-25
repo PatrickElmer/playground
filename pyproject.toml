@@ -9,3 +9,16 @@ readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
 dynamic = ["version", "description"]
+requires-python = ">=3.7"
+dependencies = [
+    "tomli>=1.1.0; python_version < '3.11'",
+    "tomli_w",
+]
+
+[project.optional-dependencies]
+dev = [
+  'pytest >= 6.1.1',
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["playground"]
