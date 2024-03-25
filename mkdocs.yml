@@ -1,7 +1,10 @@
 site_name: playground project
+site_url: https://example.com
+nav:
+  - Home: index.md
+  - Api Reference: api.md
 theme:
   name: readthedocs
   highlightjs: true
 plugins:
   - search
-  - mkdocstrings:
