@@ -1,3 +1,6 @@
 def function(arg, kwarg=False):
     """Docstring of function."""
-    return arg
+    if kwargs:
+        return kwarg
+    else:
+        return arg
