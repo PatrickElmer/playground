@@ -13,10 +13,6 @@ plugins:
         python:
           options:
             show_submodules: true
-  - include-markdown
-  # - include-markdown:
-  #     opening_tag: "{!"
-  #     closing_tag: "!}"
 markdown_extensions:
   - markdown_include.include:
       base_path: .
