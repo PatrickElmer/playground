@@ -1,3 +1,3 @@
 # playground
 
-Sample repo.
+Sample repo. This is included in the documentation.
