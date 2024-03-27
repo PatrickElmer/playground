@@ -1,2 +1,5 @@
-# magicli
+# Installation
 
+```bash
+pip install magicli
+```

@@ -1,11 +1,30 @@
-site_name: Playground Project
+site_name: magicli
 site_url: https://example.com
 nav:
-  - Home: index.md
+  - Getting started: index.md
+  - Examples: examples.md
   - Api Reference: api.md
 theme:
-  name: readthedocs
-  highlightjs: true
+  name: material
+  logo: img/icon.svg
+  favicon: img/icon.svg
+  features:
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: black
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: black
+  # name: readthedocs
+  # highlightjs: true
+# extra_css:
+#   - style.css
 plugins:
   - search
   - mkdocstrings:
@@ -16,3 +35,11 @@ plugins:
 markdown_extensions:
   - markdown_include.include:
       base_path: .
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
