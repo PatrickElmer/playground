@@ -6,6 +6,7 @@ on:
     paths:
       - docs
       - README.md
+      - mkdocs.yml
       - .github/workflows/docs.yml
 jobs:
   build:
