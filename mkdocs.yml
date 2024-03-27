@@ -3,9 +3,9 @@ site_url: https://example.com
 nav:
   - Home: index.md
   - Api Reference: api.md
-# theme:
-#   name: readthedocs
-#   highlightjs: true
+theme:
+  name: readthedocs
+  highlightjs: true
 plugins:
   - search
   - mkdocstrings:
