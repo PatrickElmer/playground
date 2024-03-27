@@ -35,7 +35,6 @@ plugins:
 markdown_extensions:
   - markdown_include.include:
       base_path: .
-markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
