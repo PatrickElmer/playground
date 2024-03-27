@@ -16,8 +16,8 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v4
       - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        # uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
+        # uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # CUSTOM_DOMAIN: optionaldomain.com
