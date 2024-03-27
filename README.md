@@ -1,3 +1,5 @@
 # playground
 
-Sample repo. This is included in the documentation.
+<button>Start here</button>
+
+<a href="https://patrickelmer.github.io/playground/">Start here</a>
