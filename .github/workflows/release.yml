@@ -1,4 +1,4 @@
-ame: "Release"
+name: "Release"
 
 on: # yamllint disable-line rule:truthy
   push:
